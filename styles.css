@@ -1,0 +1,199 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: #1a365d;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.header p {
+    color: #cccccc;
+    font-size: 14px;
+}
+
+/* Navigation */
+.navigation {
+    background-color: #c53030;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.navigation a:hover {
+    background-color: #9b2c2c;
+}
+
+.navigation a.active {
+    background-color: #9b2c2c;
+    font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Page Title */
+.page-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 28px;
+    color: #1a365d;
+    border-bottom: 2px solid #c53030;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Welcome Section */
+.welcome-section {
+    border-bottom: 2px solid #1a365d;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.welcome-section h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 24px;
+    color: #1a365d;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Section Title */
+.section-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 22px;
+    color: #c53030;
+    margin-bottom: 15px;
+}
+
+/* Articles Grid */
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Article Card */
+.article-card {
+    border: 1px solid #dddddd;
+    padding: 15px;
+    background-color: #fafafa;
+}
+
+.article-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.article-card h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+    color: #1a365d;
+    margin-bottom: 10px;
+}
+
+.article-card p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.article-card .date {
+    font-size: 12px;
+    color: #999999;
+}
+
+/* Info Box */
+.info-box {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    background-color: #f0f0f0;
+}
+
+.info-box h4 {
+    font-family: Georgia, 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+
+.info-box ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.info-box a {
+    color: #1a365d;
+}
+
+.info-box.tech {
+    background-color: #e8f4f8;
+    border-color: #b8d4e3;
+}
+
+.info-box.sports {
+    background-color: #f0fff4;
+    border-color: #9ae6b4;
+}
+
+.info-box.lifestyle {
+    background-color: #faf5ff;
+    border-color: #d6bcfa;
+}
+
+/* Footer */
+.footer {
+    background-color: #1a365d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer .contact {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.footer .address {
+    font-size: 12px;
+    color: #aaaaaa;
+}
